@@ -54,7 +54,7 @@ const ImageSlider = ({ url, limit = 10, page = 1 }) => {
     <>
       <center>
         <div style={{ color: "red" }}>
-          <h1>Fourth Project abour Image Slider</h1>
+          <h1>Fourth Project about Image Slider</h1>
         </div>
         <div className="container">
           <BsArrowLeftCircleFill
