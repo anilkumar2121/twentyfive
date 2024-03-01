@@ -26,7 +26,13 @@ const StarRating = ({ noOfStars }) => {
           <center>Third Project About Star Rating</center>
         </h1>
       </div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          paddingBottom: "120px",
+        }}
+      >
         {[...Array(noOfStars)].map((_, index) => {
           return (
             <FaStar

@@ -5,6 +5,7 @@ import "./App.css";
 import Accordine from "./components/accordian/Accordine";
 import RandomColor from "./components/randomColor/RandomColor";
 import StarRating from "./components/starRating/StarRating";
+import ImageSlider from "./components/imageslider/ImageSlider";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,11 @@ function App() {
       <Accordine />
       <RandomColor />
       <StarRating noOfStars={10} />
+      <ImageSlider
+        url={"https://picsum.photos/v2/list"}
+        page={"1"}
+        limit={"10"}
+      />
     </>
   );
 }
