@@ -1,0 +1,37 @@
+.loadMore{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    gap: 20px;
+}
+.buttonData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+    padding: 20px;
+    background-color: rgb(228, 255, 255);
+    border-radius: 5px;
+}
+
+.product img{
+    height: 200px;
+    width: 200px;
+}
+.disabledButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

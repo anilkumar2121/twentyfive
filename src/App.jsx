@@ -6,6 +6,7 @@ import Accordine from "./components/accordian/Accordine";
 import RandomColor from "./components/randomColor/RandomColor";
 import StarRating from "./components/starRating/StarRating";
 import ImageSlider from "./components/imageslider/ImageSlider";
+import LoadMore from "./components/loadmore/LoadMore";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
         page={"1"}
         limit={"10"}
       />
+      <LoadMore />
     </>
   );
 }
