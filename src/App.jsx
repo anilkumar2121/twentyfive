@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      {/* <Accordine />
+      <Accordine />
       <RandomColor />
       <StarRating noOfStars={10} />
       <ImageSlider
@@ -23,8 +23,8 @@ function App() {
         page={"1"}
         limit={"10"}
       />
-      <LoadMore /> */}
-      <TreeView  menus={menus}/>
+      <LoadMore />
+      <TreeView menus={menus} />
     </>
   );
 }
