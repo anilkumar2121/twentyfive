@@ -7,13 +7,15 @@ import RandomColor from "./components/randomColor/RandomColor";
 import StarRating from "./components/starRating/StarRating";
 import ImageSlider from "./components/imageslider/ImageSlider";
 import LoadMore from "./components/loadmore/LoadMore";
+import TreeView from "./components/treeview/TreeView";
+import menus from "./components/treeview/data";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Accordine />
+      {/* <Accordine />
       <RandomColor />
       <StarRating noOfStars={10} />
       <ImageSlider
@@ -21,7 +23,8 @@ function App() {
         page={"1"}
         limit={"10"}
       />
-      <LoadMore />
+      <LoadMore /> */}
+      <TreeView  menus={menus}/>
     </>
   );
 }
