@@ -12,7 +12,7 @@ const QrCode = () => {
   };
 
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <h1 style={{ color: "red" }}>
         <center>Seventh Project About QR-CODE</center>
       </h1>
