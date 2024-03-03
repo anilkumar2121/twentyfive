@@ -9,13 +9,14 @@ import ImageSlider from "./components/imageslider/ImageSlider";
 import LoadMore from "./components/loadmore/LoadMore";
 import TreeView from "./components/treeview/TreeView";
 import menus from "./components/treeview/data";
+import QrCode from "./components/qrcode/QrCode";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Accordine />
+      {/* <Accordine />
       <RandomColor />
       <StarRating noOfStars={10} />
       <ImageSlider
@@ -24,7 +25,8 @@ function App() {
         limit={"10"}
       />
       <LoadMore />
-      <TreeView menus={menus} />
+      <TreeView menus={menus} /> */}
+      <QrCode />
     </>
   );
 }
