@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      {/* <Accordine />
+      <Accordine />
       <RandomColor />
       <StarRating noOfStars={10} />
       <ImageSlider
@@ -25,7 +25,7 @@ function App() {
         limit={"10"}
       />
       <LoadMore />
-      <TreeView menus={menus} /> */}
+      <TreeView menus={menus} />
       <QrCode />
     </>
   );
