@@ -10,6 +10,8 @@ import LoadMore from "./components/loadmore/LoadMore";
 import TreeView from "./components/treeview/TreeView";
 import menus from "./components/treeview/data";
 import QrCode from "./components/qrcode/QrCode";
+import LightDarkMode from "./components/lightdarkmode/LightDarkMode";
+import CustomScrollDown from "./components/customscroll/CustomScrollDown";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +29,8 @@ function App() {
       <LoadMore />
       <TreeView menus={menus} />
       <QrCode />
+      <LightDarkMode />
+      <CustomScrollDown  url={"https://dummyjson.com/products?limit=100"}/>
     </>
   );
 }
