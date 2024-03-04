@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <Accordine />
+      {/* <Accordine />
       <RandomColor />
       <StarRating noOfStars={10} />
       <ImageSlider
@@ -29,7 +29,7 @@ function App() {
       <LoadMore />
       <TreeView menus={menus} />
       <QrCode />
-      <LightDarkMode />
+      <LightDarkMode /> */}
       <CustomScrollDown  url={"https://dummyjson.com/products?limit=100"}/>
     </>
   );
